@@ -1,0 +1,20 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0}
+table {border-collapse:collapse;border-spacing:0}
+fieldset,img {border:0;}
+address,caption,cite,code,dfn,em,th,var {font-style:normal;font-weight:normal}
+strong{font-style:normal; font-weight:bold;}
+ol,ul {list-style:none}
+caption,th {text-align:left}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal}
+q:before,q:after {content:''}
+abbr,acronym { border:0}
+hr{display:none;}
+a {text-decoration: none;color:#333}
+/*
+@font-face{ font-family:ngttf; src:url(NanumGothic.ttf);}
+@font-face{ font-family:ngeot; src:url(NanumGothic.eot);}
+*/
+html{overflow-y:scroll}
+img{max-width:300px}

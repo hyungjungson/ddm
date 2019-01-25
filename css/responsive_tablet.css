@@ -1,0 +1,1612 @@
+/*@media(min-width:768px) and (max-width:1200px)*/
+@media(min-width:535px) and (max-width:1200px) {
+    body {
+        font-family: 'Noto Sans KR', 'Lato', 'KoPub Dotum', 'MyriadPro', sans-serif;
+    }
+
+    /*bootstrap_custom*/
+    .container {
+        padding: 0 5%;
+        width: 100%;
+        background: #fff;
+    }
+
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        padding: 5% 0 8%;
+    }
+
+    .navbar-inverse .navbar-toggle {
+        margin: 15px 0 0 3%;
+    }
+    /*터치 클릭 시 x자로 변환*/
+    .navbar-header .navbar-toggle>.icon-bar:nth-child(2) {
+        height: 2px;
+        width: 20px;
+        background: #303030;
+        float: left;
+        position: absolute;
+        content: "";
+        top: 0px;
+        left: 0px;
+        -webkit-transition: 0.4s ease-in-out;
+        -moz-transition: 0.4s ease-in-out;
+        -ms-transition: 0.4s ease-in-out;
+        -o-transition: 0.4s ease-in-out;
+        transition: 0.4s ease-in-out;
+        transform: translateY(0px) translateX(0) rotate(-45deg);
+    }
+
+    .navbar-header .navbar-toggle>.icon-bar:nth-child(3) {
+        height: 2px;
+        width: 20px;
+        background: #303030;
+        float: left;
+        position: absolute;
+        content: "";
+        top: -4px;
+        left: 0px;
+        -webkit-transition: 0.4s ease-in-out;
+        -moz-transition: 0.4s ease-in-out;
+        -ms-transition: 0.4s ease-in-out;
+        -o-transition: 0.4s ease-in-out;
+        transition: 0.4s ease-in-out;
+        transform: translateY(0px) translateX(0) rotate(45deg);
+    }
+
+    .navbar-header .navbar-toggle>.icon-bar:nth-child(4) {
+        height: 2px;
+        width: 20px;
+        background: #303030;
+        float: left;
+        position: absolute;
+        content: "";
+        top: -4px;
+        left: 0px;
+        -webkit-transition: 0.4s ease-in-out;
+        -moz-transition: 0.4s ease-in-out;
+        -ms-transition: 0.4s ease-in-out;
+        -o-transition: 0.4s ease-in-out;
+        transition: 0.4s ease-in-out;
+        transform: translateY(0px) translateX(0) rotate(45deg);
+    }
+
+    .navbar-header .collapsed>.icon-bar {
+        transform: none;
+    }
+
+    .navbar-header .collapsed>.icon-bar:nth-child(2) {
+        transform: none;
+    }
+
+    .navbar-header .collapsed>.icon-bar:nth-child(3) {
+        top: 2px;
+        transform: none;
+    }
+
+    .navbar-header .collapsed>.icon-bar:nth-child(4) {
+        top: 8px;
+        transform: none;
+    }
+    /*터치 클릭 시 x자로 변환*/
+    /*bootstrap_custom*/
+    .header {
+        position: relative;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 2;
+    }
+
+    .header .logo {
+        overflow: hidden;
+        padding: 0 5%;
+        margin: 0 auto;
+        width: 100%;
+        height: 80px;
+    }
+
+    .header .logo h1 {
+        float: left;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .header .logo .gnb {
+        float: right;
+        margin-top: -40px;
+    }
+
+    .header .logo .gnb li a {
+        display: inline-block;
+        margin-left: 1055px;
+        width: 53px;
+        height: 28px;
+        font-size: 14px;
+        line-height: 27px;
+        font-weight: bold;
+        text-align: center;
+        color: #3770ab;
+    }
+
+    .header .logo h1 a {
+        padding-top: 15px;
+        display: block;
+    }
+
+    .header>.nav {
+        border-top: 1px solid #e3e3e3;
+        border-bottom: 1px solid #e3e3e3;
+        width: 100%;
+        height: 50px;
+        background: #fff;
+    }
+
+    .header .nav ul {
+        overflow: hidden;
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .header .nav ul li {
+        margin: 0 3px;
+        float: none;
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        line-height: 47px;
+        color: #333;
+    }
+
+    .header .nav ul li a {
+        padding: 26px 14px 28px;
+        ;
+        font-size: 2.5vw;
+        font-weight: bold;
+        color: #303030;
+        border: none;
+    }
+
+    /*
+     .header .nav ul li a {
+         padding:17px 0 13px
+     }
+     */
+    .header .nav ul li a:hover {
+        border: none;
+        color: #333;
+    }
+
+    .nav-menu li {
+        display: inline-block;
+        margin-right: -6px;
+        line-height: 60px;
+    }
+
+    .nav-menu-item {
+        display: block;
+        padding: 0 20px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nav-menu-item:hover,
+    .isactive {
+        border-bottom: 2px solid #3770ab;
+        /*
+          background-color: #222;
+          color: #fff;*/
+    }
+
+    .section {
+        line-height: 22px;
+    }
+
+    .padding-top10 {
+        padding-top: 10px;
+    }
+
+    #section-1 {
+        height: auto;
+        background: url(../images/bg/m_bg.jpg)50% 50% no-repeat;
+        background-size: contain;
+        color: #fff;
+        padding: 120% 0 10%;
+    }
+
+    #section-2 {
+        background-color: #fff;
+        color: #fff;
+        padding: 20px 0 115px;
+    }
+
+    #section-3 {
+        background-color: #eeeded;
+        color: #fff;
+        padding: 20px 0 115px;
+    }
+
+    #section-4 {
+        background: #fff;
+        color: #fff;
+        padding: 20px 0 115px;
+    }
+
+    #section-5 {
+        background: #eeeded;
+        color: #fff;
+        padding: 20px 0 115px;
+    }
+
+    #section-6 {
+        background-color: #fff;
+        color: #fff;
+        padding: 0 0 115px;
+    }
+
+    #section-7 {
+        background-color: #eeeded;
+        padding: 5% 0 20%;
+    }
+
+    #section-8 {
+        position: static;
+        padding: 10% 0;
+        background: #205FA2;
+        height: auto;
+    }
+
+    #section-9 {
+        padding: 20px 0 115px;
+    }
+
+    #section-10 {
+        padding: 0 0 10%;
+        background: #2d3d4f;
+        height: auto;
+    }
+
+    /*section*/
+
+    /*line*/
+    .blackline {
+        margin: 0 auto;
+        display: block;
+        width: 150px;
+        height: 2px;
+        background: #333333;
+    }
+
+    /*intro*/
+    #section-1 .title01 {
+        margin: -60% auto 53%;
+        width: 580px;
+    }
+
+    #section-1 .title01 h2 {
+        font-family: 'Lato';
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #section-1 .title01 .txt01 {
+        margin: 45px auto 20px;
+        font-family: 'Lato';
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: #f8b526;
+    }
+
+    #section-1 .title01 .txt02 {
+        font-family: 'Noto Sans KR';
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.33;
+        letter-spacing: -0.5px;
+        color: #fff;
+    }
+
+
+    /*content_box*/
+    .box_wrap {
+        overflow: visible;
+        padding: 12% 5% 12%;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        position: static;
+        /*! top: 200px; */
+    }
+
+    .box_wrap .box1 {
+        float: none;
+        padding: 17%;
+        margin: 0 auto;
+        width: 80%;
+        min-height: 475px;
+        box-shadow: 0 0 38px 0 rgba(42, 96, 142, 0.5);
+        background-color: #f8b526;
+    }
+
+    .box_wrap .box1 img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .box_wrap .box1 p {
+        margin-top: 38px;
+        font-family: 'KoPub Dotum';
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+    }
+
+    .box_wrap .box2 {
+        float: none;
+        padding: 13%;
+        margin: 10% auto;
+        width: 80%;
+        min-height: 475px;
+        box-shadow: 0 0 38px 0 rgba(42, 96, 142, 0.5);
+        background-color: #32aef4;
+    }
+
+    .box_wrap .box2 img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .box_wrap .box2 p {
+        margin-top: 38px;
+        font-family: 'KoPub Dotum';
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+    }
+
+    .box_wrap .box3 {
+        float: none;
+        padding: 18%;
+        margin: 0 auto;
+        width: 80%;
+        min-height: 475px;
+        box-shadow: 0 0 38px 0 rgba(42, 96, 142, 0.5);
+        background-color: #28d79c;
+    }
+
+    .box_wrap .box3 img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .box_wrap .box3 p {
+        margin-top: 38px;
+        font-family: 'KoPub Dotum';
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+    }
+
+    /*INTRODUCATION*/
+    #section-2 .title02 {
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-2 .title02 h3 {
+        margin: 315px auto 0;
+        width: 320px;
+        font-family: 'MyriadPro';
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.51;
+    }
+
+    #section-2 .title02>p {
+        padding-bottom: 115px;
+        font-size: 18px;
+        font-family: 'MyriadPro';
+        font-weight: bold;
+        line-height: 3.94;
+        text-align: center;
+        color: #333333;
+    }
+
+    #section-2 .contents_box {
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-2 .contents_box .left_box {
+        float: none;
+        width: 100%;
+    }
+
+    #section-2 .contents_box .left_box img {
+        width: 100%;
+    }
+
+    #section-2 .contents_box .right_box {
+        float: none;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: 360px;
+        border: none;
+        box-shadow: none;
+    }
+
+    #section-2 .contents_box .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-2 .contents_box .right_box p {
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-2 .contents_box2 {
+        display: none;
+    }
+
+
+    #section-2 .mcontents_box2 {
+        display: block;
+        overflow: hidden;
+        margin: 65px auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-2 .mcontents_box2 .left_box {
+        float: none;
+        width: 100%;
+    }
+
+    #section-2 .mcontents_box2 .left_box img {
+        width: 100%;
+    }
+
+    #section-2 .mcontents_box2 .right_box {
+        float: none;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: 360px;
+        border: none;
+        box-shadow: none;
+    }
+
+    #section-2 .mcontents_box2 .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-2 .mcontents_box2 .right_box p {
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #333333;
+    }
+
+
+
+    #section-2 .contents_box3 {
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-2 .contents_box3 .left_box {
+        float: none;
+        width: 100%;
+    }
+
+    #section-2 .contents_box3 .left_box img {
+        width: 100%;
+    }
+
+    #section-2 .contents_box3 .right_box {
+        float: none;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: 360px;
+        border: none;
+        box-shadow: none;
+    }
+
+    #section-2 .contents_box3 .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-2 .contents_box3 .right_box p {
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #333333;
+    }
+
+
+    /*PLATFORM*/
+    #section-3 .title03 {
+        margin: 160px auto 0;
+        max-width: 1200px;
+        max-width: 100%;
+    }
+
+    #section-3 .title03 h3 {
+        font-family: 'MyriadPro';
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.51;
+    }
+
+    #section-3 .title03>p {
+        padding-bottom: 115px;
+        font-size: 18px;
+        font-family: 'MyriadPro';
+        font-weight: bold;
+        line-height: 3.94;
+        text-align: center;
+        color: #333333;
+    }
+
+    #section-3 .contents_box2 {
+        display: none;
+    }
+
+    #section-3 .mcontents_box2 {
+        display: block;
+        overflow: hidden;
+        margin: 65px auto;
+        max-width: 1200px;
+    }
+
+    #section-3 .mcontents_box2 .left_box {
+        float: none;
+        width: 100%;
+    }
+
+    #section-3 .mcontents_box2 .left_box img {
+        width: 100%;
+    }
+
+    #section-3 .mcontents_box2 .right_box {
+        float: left;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        /*height:360px;*/
+        background: #fff;
+        border: none;
+        box-shadow: none;
+    }
+
+    #section-3 .mcontents_box2 .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-3 .mcontents_box2 .right_box p {
+        margin: 0;
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing: -0.5px;
+        line-height: 1.5;
+        text-align: left;
+        color: #333333;
+    }
+
+
+
+    #section-3 .contents_box3 {
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-3 .contents_box3 .left_box {
+        float: none;
+        width: 100%;
+    }
+
+    #section-3 .contents_box3 .left_box img {
+        width: 100%;
+    }
+
+    #section-3 .contents_box3 .right_box {
+        float: none;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: 360px;
+        background: #fff;
+        border: none;
+        box-shadow: none;
+    }
+
+    #section-3 .contents_box3 .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-3 .contents_box3 .right_box p {
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-3 .plat_box {
+        padding: 10% 5% 12%;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 0 24px 0 rgba(154, 152, 152, 0.2);
+        background-color: #ffffff;
+    }
+
+    #section-3 .plat_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 3.94;
+        color: #333333;
+    }
+
+    #section-3 .plat_box p {
+        margin: 0 auto 55px;
+        width: 610px;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: -0.3px;
+        text-align: center;
+        color: #333333;
+    }
+
+    #section-3 .plat_box img {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }
+
+    /*introduvtion*/
+    #section-4 .title04 {
+        margin: 160px auto 0;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-4 .title04 h3 {
+
+        font-family: 'MyriadPro';
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.51;
+    }
+
+    #section-4 .title04>p {
+        padding-bottom: 115px;
+        font-size: 18px;
+        font-family: 'MyriadPro';
+        font-weight: bold;
+        line-height: 3.94;
+        text-align: center;
+        color: #333333;
+    }
+
+    #section-4 .intro_box {
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-4 .intro_box li {
+        padding: 0 20%;
+        float: none;
+        width: 100%;
+    }
+
+    #section-4 .intro_box li:nth-child(2) {
+        margin: 7% 0;
+    }
+
+    #section-4 .intro_box li a p:nth-child(2) {
+        margin: 0;
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 2.94;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-4 .intro_box li a p:nth-child(3) {
+        font-family: 'KoPub Dotum';
+        font-size: 13px;
+        letter-spacing: -0.5px;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-4 .intro_box li a p img {
+        padding: 0 0 2%;
+        width: 100%;
+    }
+
+    /*TAC Ecosystem*/
+
+    #section-5 .title05 {
+        padding: 0 5%;
+        margin: 160px auto 0;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-5 .title05 h3 {
+
+        font-family: 'MyriadPro';
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.51;
+    }
+
+    #section-5 .title05>p {
+        padding-bottom: 115px;
+        margin: 0 auto;
+        max-width: 775px;
+        width: 100%;
+        font-size: 18px;
+        font-family: 'KoPub Dotum';
+        font-weight: bold;
+        line-height: 1.33;
+        text-align: center;
+        color: #333333;
+    }
+
+    #section-5 .title05 img {
+        margin: 0 auto 130px;
+        display: block;
+        width: 100%;
+    }
+
+
+
+    #section-5 .contents_box2 {
+        display: none;
+    }
+
+
+    #section-5 .mcontents_box2 {
+        display: block;
+        overflow: hidden;
+        margin: 65px auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-5 .mcontents_box2 .left_box {
+        float: none;
+        width: 100%;
+    }
+
+    #section-5 .mcontents_box2 .left_box img {
+        width: 100%;
+    }
+
+    #section-5 .mcontents_box2 .right_box {
+        float: none;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: 360px;
+        background: #fff;
+        border: none;
+        box-shadow: none;
+    }
+
+    #section-5 .mcontents_box2 .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-5 .mcontents_box2 .right_box p {
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing: -0.5px;
+        line-height: 1.5;
+        text-align: left;
+        color: #333333;
+    }
+
+
+
+    #section-5 .contents_box3 {
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-5 .contents_box3 .left_box {
+        float: none;
+        width: 100%;
+    }
+
+    #section-5 .contents_box3 .left_box img {
+        width: 100%;
+    }
+
+    #section-5 .contents_box3 .right_box {
+        float: none;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: 360px;
+        background: #fff;
+        border: none;
+        box-shadow: none;
+    }
+
+    #section-5 .contents_box3 .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-5 .contents_box3 .right_box p {
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #333333;
+    }
+
+
+    /*TAC Ecosystem 
+    Token Attract Customers */
+    .bg {
+        padding: 18.3%;
+        width: 100%;
+        height: auto;
+        background: url(../images/bg/bg2.jpg)50% 50% no-repeat;
+        background-size: contain;
+
+    }
+
+
+
+
+    #section-6 .title06 {
+        position: relative;
+        margin: 0 auto;
+        max-width: 700px;
+        width: 100%;
+    }
+
+    #section-6 .title06 h3 {
+        position: absolute;
+        top: -135px;
+        font-family: 'MyriadPro';
+        font-size: 48px;
+        line-height: 1.48;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #section-6 .title07 {
+        margin-top: 165px;
+    }
+
+    #section-6 .title07 h3 {
+
+        font-family: 'MyriadPro';
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.51;
+    }
+
+    #section-6 .title07>p {
+        padding-bottom: 115px;
+        margin: 0 auto;
+        max-width: 775px;
+        width: 100%;
+        font-size: 18px;
+        font-family: 'KoPub Dotum';
+        font-weight: bold;
+        line-height: 1.33;
+        text-align: center;
+        color: #333333;
+    }
+
+
+
+
+
+
+
+
+
+
+    #section-6 .contents_box {
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-6 .contents_box .left_box {
+        float: none;
+        width: 100%;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 24px 0 rgba(154, 152, 152, 0.2);
+    }
+
+    #section-6 .contents_box .left_box img {
+        width: 100%;
+    }
+
+    #section-6 .contents_box .right_box {
+        float: none;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: 360px;
+        background: #545557;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 24px 0 rgba(154, 152, 152, 0.2);
+    }
+
+    #section-6 .contents_box .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    #section-6 .contents_box .right_box p {
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #ffffff;
+    }
+
+
+    #section-6 .contents_box2 {
+        display: none;
+    }
+
+
+    #section-6 .mcontents_box2 {
+        display: block;
+        overflow: hidden;
+        margin: 65px auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-6 .mcontents_box2 .left_box {
+        float: none;
+        width: 100%;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 24px 0 rgba(154, 152, 152, 0.2);
+    }
+
+    #section-6 .mcontents_box2 .left_box img {
+        width: 100%;
+    }
+
+    #section-6 .mcontents_box2 .right_box {
+        float: none;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: 360px;
+        background: #545557;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 24px 0 rgba(154, 152, 152, 0.2);
+    }
+
+    #section-6 .mcontents_box2 .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+    }
+
+    #section-6 .mcontents_box2 .right_box p {
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+
+
+
+    #section-6 .contents_box3 {
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-6 .contents_box3 .left_box {
+        float: none;
+        width: 100%;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 24px 0 rgba(154, 152, 152, 0.2);
+    }
+
+    #section-6 .contents_box3 .left_box img {
+        width: 100%;
+    }
+
+    #section-6 .contents_box3 .right_box {
+        float: none;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: 360px;
+        background: #545557;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 24px 0 rgba(154, 152, 152, 0.2);
+    }
+
+    #section-6 .contents_box3 .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+    }
+
+    #section-6 .contents_box3 .right_box p {
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+
+
+    #section-6 .contents_box4 {
+        display: none;
+    }
+
+
+    #section-6 .mcontents_box4 {
+        display: block;
+        overflow: hidden;
+        margin: 65px auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-6 .mcontents_box4 .left_box {
+        float: none;
+        width: 100%;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 24px 0 rgba(154, 152, 152, 0.2);
+    }
+
+    #section-6 .mcontents_box4 .left_box img {
+        width: 100%;
+    }
+
+    #section-6 .mcontents_box4 .right_box {
+        float: none;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: 360px;
+        background: #545557;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 24px 0 rgba(42, 42, 42, 0.2);
+    }
+
+    #section-6 .mcontents_box4 .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+    }
+
+    #section-6 .mcontents_box4 .right_box p {
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+
+
+
+    #section-6 .contents_box5 {
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-6 .contents_box5 .left_box {
+        float: none;
+        width: 100%;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 24px 0 rgba(154, 152, 152, 0.2);
+    }
+
+    #section-6 .contents_box5 .left_box img {
+        width: 100%;
+    }
+
+    #section-6 .contents_box5 .right_box {
+        float: none;
+        padding: 55px 45px;
+        margin-top: 20px;
+        width: 100%;
+        height: 360px;
+        background: #545557;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 24px 0 rgba(154, 152, 152, 0.2);
+    }
+
+    #section-6 .contents_box5 .right_box h4 {
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+    }
+
+    #section-6 .contents_box5 .right_box p {
+        margin-bottom: 2%;
+        font-family: 'KoPub Dotum';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #fff;
+    }
+
+
+
+
+
+
+
+    /*Token Allocation*/
+
+    #section-7 .title07 {
+        margin: 160px auto 0;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-7 .title07 h3 {
+
+        font-family: 'MyriadPro';
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.51;
+    }
+
+
+    #section-7 .graph {
+        overflow: hidden;
+        padding-top: 180px;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-7 .graph .ledt_graph {
+        float: none;
+        margin: 0 auto;
+        max-width: 600px;
+        width: 100%;
+
+    }
+
+    #section-7 .graph .ledt_graph img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #section-7 .graph .right_graph {
+        float: none;
+        margin: 0 auto;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    #section-7 .graph .right_graph table {
+        width: 100%;
+    }
+
+    #section-7 .graph .right_graph table thead th {
+        padding: 95px 25px 0;
+        font-family: 'KoPub Dotum';
+        font-size: 21px;
+        line-height: 1.52;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #333333;
+    }
+
+    #section-7 .graph .right_graph table tbody td {
+        padding: 20px 20px 75px;
+    }
+
+    #section-7 .graph .right_graph table tbody td {
+        font-family: 'KoPub Dotum';
+        font-size: 30px;
+        line-height: 1.57;
+        text-align: left;
+        color: #205fa1;
+    }
+
+    #section-7 .graph .right_graph table tfoot td {
+        padding-top: 10px;
+        width: 25%;
+        font-family: 'KoPub Dotum';
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.17;
+        text-align: center;
+        color: #333333;
+    }
+
+
+
+
+
+    /*ICO 스케쥴*/
+    #section-8 .title08 {
+        display: none;
+    }
+
+    #section-8 .mtitle08 {
+        display: block;
+        position: static;
+        width: 100%;
+    }
+
+    #section-8 .mtitle08 h3 {
+        margin: 150px auto 0;
+        font-family: 'MyriadPro';
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.51;
+        color: #fff;
+    }
+
+    #section-8 .mtitle08>p {
+        padding: 10% 0 0;
+        margin: 0 auto;
+        max-width: 775px;
+        width: 100%;
+        font-size: 30px;
+        font-family: 'KoPub Dotum';
+        font-weight: bold;
+        line-height: 1.33;
+        text-align: center;
+        color: #fff;
+    }
+
+    #section-8 .title08 .circle,
+    #section-8 .mtitle08 .circle {
+        display: none !important;
+        margin: 38px auto 25px;
+        display: block;
+    }
+
+    #section-8 .mtitle08 .date {
+        overflow: hidden;
+        margin: 10% auto;
+        max-width: 1300px;
+        width: 100%;
+    }
+
+    #section-8 .mtitle08 .date li {
+        float: left;
+        width: 100%;
+        font-family: 'KoPub Dotum';
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.68;
+        color: #eeeded;
+    }
+
+    #section-8 .mtitle08 .date li:nth-child(1) {
+        width: 100%;
+    }
+
+    #section-8 .mtitle08 .date li:nth-child(2) {
+        width: 100%;
+    }
+
+
+
+
+
+
+    /*team*/
+    #section-9 .title09 {
+        margin: 160px auto 0;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-9 .title09>.blackline {
+        width: 120px;
+    }
+
+    #section-9 .title09 h3 {
+
+        font-family: 'MyriadPro';
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.51;
+    }
+
+
+    #section-9 .member {
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    #section-9 .member li {
+        overflow: hidden;
+        float: left;
+        margin: 60px 5%;
+        width: 39.7%;
+        max-height: 100%;
+        border-radius: 10px;
+        box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.2);
+        background-color: #2d3d4f;
+    }
+
+    #section-9 .member li img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    #section-9 .member li .name {
+        padding: 20px;
+        font-family: 'KoPub Dotum';
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    #section-9 .member li .description {
+        padding: 0 30px 40px 20px;
+        font-family: 'KoPub Dotum';
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: left;
+        color: #9597a4;
+    }
+
+
+
+    /*contact*/
+    #section-10 .title10 {
+        padding: 70px 0 0;
+        width: 100%;
+    }
+
+    #section-10 .title10 h3 {
+        margin: 40px auto 75px;
+        font-family: 'Lato';
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.51;
+        color: #fff;
+    }
+
+    #section-10 .title10>.blackline {
+        background: #fff;
+    }
+
+    #section-10 .contact_us {
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 450px;
+        width: 100%;
+    }
+
+    #section-10 .left_contact {
+        margin: 0 0 25%;
+        float: none;
+        width: 100%;
+        color: #fff;
+    }
+
+    #section-10 .left_contact h4 {
+
+        font-family: 'Lato';
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 1.52;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    #section-10 .left_contact address,
+    #section-10 .left_contact .phone_num {
+        font-family: 'Noto Sans KR';
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #ffffff;
+    }
+
+
+    #section-10 .right_contact {
+        float: none;
+        width: 100%;
+    }
+
+    #section-10 .right_contact #contact_form .form-control {
+        padding: 5% 2%;
+        background: none;
+        border-radius: 0;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        box-shadow: none;
+    }
+
+    #section-10 .right_contact #contact_form label {
+        margin: 0 0 20px;
+        width: 100%;
+        opacity: 0.9;
+        font-family: 'Lato';
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 5.79;
+        text-align: left;
+        color: #9597a4;
+    }
+
+    #section-10 .right_contact #contact_form label #name,
+    #section-10 .right_contact #contact_form label #email {
+        height: 60px;
+
+    }
+
+    #section-10 .right_contact #contact_form .btn {
+        width: 100%;
+        height: 60px;
+        background: #205fa1;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+
+    footer {
+        width: 100%;
+        height: 120px;
+    }
+
+    footer .foot {
+        display: none;
+    }
+
+    footer .mfoot {
+        display: block;
+        overflow: hidden;
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    footer .mfoot>p {
+        margin: 5% auto;
+        float: none;
+        width: 100%;
+        font-family: 'Lato';
+        font-size: 13px;
+        line-height: 1.77;
+        text-align: center;
+        color: #999999;
+    }
+
+    footer .mfoot .sns_wrap {
+        margin-top: 30px;
+        float: none;
+        text-align: center;
+    }
+
+    footer .mfoot .sns_wrap a:nth-child(2),
+    footer .mfoot .sns_wrap a:nth-child(4) {
+        margin: 0 10px;
+    }
+
+}

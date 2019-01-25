@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.progress{overflow:hidden;height:25px;margin:10px 0 10px;background:url(http://static.naver.com/groupware/2010/bg_progress.gif);border-right:1px solid #e3e3e3;font-family:NanumGothic, 맑은고딕, ngttf, ngeot,'돋움',dotum;font-size:11px;line-height:15px;letter-spacing:-1px}
+.progress .tit{float:left;position:relative;z-index:1000;width:74px;height:20px;margin:0;padding:5px 0 0;background:url(http://static.naver.com/groupware/2010/bg_progress_tit.gif) no-repeat;font-size:11px;color:#fff;line-height:15px;text-align:center}
+.progress ol{float:left;margin:0;padding:0}
+.progress li,.progress li span{background:url(http://static.naver.com/groupware/2010/bg_progress_item.gif) no-repeat;font-size:11px;white-space:nowrap}
+.progress li{float:left;margin:0 0 0 -13px;padding:0 0 0 13px;background-position:-287px 0}
+.progress li span{display:inline-block;height:20px;padding:5px 28px 0 13px;background-position:100% top; color:#000}
+.progress li.on{position:relative;z-index:10;background-position:0 100%;color:#fff}
+.progress li.on span{background:url(http://static.naver.com/groupware/2010/bg_progress_item.gif) no-repeat 100% 100%; color:#FFF}
+.progress li.last,.progress li.last span{background:none}
+.progress .right{position:absolute;top:6px;right:10px;color:#444}
+
+.text{padding:1px 0px 2px; border:1px solid #ddd; font-size:12px; vertical-align:middle}
+.text.read {background: none repeat scroll 0 0 #EBEBEB; color: #A0A0A0;}
+.text.grid {width:94%}
+.text.url {width:65px}
+.text.money{text-align:right}
+.txt_left{text-align:left !important}
+.txt_center{text-align:center !important}
+.txt_right{text-align:right !important}
+
+#ajax_bx{display:none;}
+.ld_line{position:fixed;_position:absolute;top:50%;left:45%;z-index:9000;height:40px}
+.ld_line:after{display:block;clear:both;content:''}
+.ld_line .lft,.ld_line .rgt{float:left;width:11px;height:40px;font-size:0;line-height:0}
+.ld_line .lft{background:url(http://static.naver.com/desk/ld1_lft.png) no-repeat 0 0;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.naver.com/desk/ld1_lft.png',sizingMethod='crop')}
+.ld_line .rgt{background:url(http://static.naver.com/desk/ld1_rgt.png) no-repeat 0 0;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.naver.com/desk/ld1_rgt.png',sizingMethod='crop')}
+.ld_line .cont{float:left;height:26px;padding:14px 7px 0 0;background:url(http://static.naver.com/desk/ld1_cen.png) repeat-x 0 0;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.naver.com/desk/ld1_cen.png',sizingMethod='scale');color:#fff}
+.ld_line .cont img{margin:-3px 9px 0 0;vertical-align:top}
+
+.ld_line{height:40px}
+.ld_line:after{display:block;clear:both;content:''}
+.ld_line .lft,.ld_line .rgt{float:left;width:11px;height:40px;font-size:0;line-height:0}
+.ld_line .lft{background:url(http://static.naver.com/desk/ld1_lft.png) no-repeat 0 0;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.naver.com/desk/ld1_lft.png',sizingMethod='crop')}
+.ld_line .rgt{background:url(http://static.naver.com/desk/ld1_rgt.png) no-repeat 0 0;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.naver.com/desk/ld1_rgt.png',sizingMethod='crop')}
+.ld_line .cont{float:left;height:26px;padding:14px 7px 0 0;background:url(http://static.naver.com/desk/ld1_cen.png) repeat-x 0 0;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.naver.com/desk/ld1_cen.png',sizingMethod='scale');color:#fff}
+.ld_line .cont img{margin:-3px 9px 0 0;vertical-align:top}
+
+
+/* s:Graph Style */
+.i_graph{position:relative;line-height:normal;white-space:nowrap}
+.i_graph .g_bar{display:inline-block;position:relative;width:80%;height:10px;margin:0 5px 0 0;border:1px solid #ccc;background:#e9e9e9;font-size:11px}
+.i_graph .g_action{display:inline-block;position:relative;height:10px;margin:-1px;border:1px solid #8c9bac;background:#718399;}
+.i_graph .g_percent{font:16px Arial, Helvetica, sans-serif;color:#ccc}
+.i_graph .g_percent strong{font-size:18px;color:#e88b30}
+/* e:Graph Style */

@@ -1,0 +1,88 @@
+@charset "utf-8";
+/*
+ * default style definition
+ */
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 75%;
+	line-height: 1.5em;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+form {
+	margin: 0;
+	padding: 0;
+}
+hr {
+	display: none;
+}
+p, div, th, td, select, input {
+	color: #333;
+}
+a:link, a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:active, a:hover {
+	color: #000;
+	text-decoration: none;
+}
+a img, 
+input.type-image {
+	border: 0 none;
+}
+input.type-text, 
+textarea {
+	border: 1px solid #ddd;
+	background: #fff;
+	padding: 1px;
+}
+input.type-text:hover, 
+input.type-text:focus, 
+textarea:hover, 
+textarea:focus, 
+select:hover, 
+select:active {
+	background-color: #ffd;
+}
+input, select, textarea {
+	vertical-align: middle;
+	font-size: 1em;
+	color: #333;
+}
+select {
+	font-size: 11px;
+	font-family: Dotum, "돋움", sans-serif;
+}
+span.button, 
+img.button, 
+a.button {
+	cursor: pointer;
+	vertical-align: middle;
+}
+/*add*/
+ul { padding:0; }
+li { list-style:none; }
+p { margin:0; }
+button { border:none; }
+em { font-style:normal; }
+a { text-decoration: none; cursor: pointer;}
+caption { display:none; }
+
+/*bootstrap_custom*/
+.container { padding:0; }
+.navbar-inverse .navbar-toggle {
+	float: left;
+	border:none;
+}
+.navbar-inverse .navbar-toggle .icon-bar { 
+	border:1px solid #3770ab;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background:#fff;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	/*background:#fff;*/
+	border:none;
+}

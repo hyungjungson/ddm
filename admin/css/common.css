@@ -1,0 +1,103 @@
+@charset "utf-8";
+label.absolute { 
+    position: absolute; 
+    color:#999; 
+    display: none; 
+    cursor: text
+}
+input.focusbox { 
+    
+}
+input:focus { 
+    
+} 
+
+.left{float:left;}
+.right{float:right;}
+.blind{display:block; height:0; width:100%; font-size:0 !important; line-height:0 !important; overflow:hidden; margin:0 !important; padding:0 !important;}
+.clear{display:block; float:none; clear:both; height:0; width:100%; font-size:0 !important; line-height:0 !important; overflow:hidden; margin:0 !important; padding:0 !important;}
+.hidden{display:none}
+.divider{display:inline-block;overflow:visible; position:relative; vertical-align:middle; height:18px;width:1px; margin:0 5px;  _margin-left:1px; padding:0; border:none; border-right:1px solid #BBB;}
+fieldset{border:0 none;}
+legend{display:block; overflow:hidden; font-size:0;line-height:0;margin-top:-1px;}
+select{vertical-align:middle; font-size:12px;}
+label{cursor:pointer}
+.checkbox{height:16px; width:16px;margin:0 0 0px 0;vertical-align:middle;border:none;}
+
+.i_help{position:absolute;top:4px;right:0}
+.i_label{ top:6px; left:10px}
+.i_dsc{margin:2px 0}
+.i_check,
+.i_radio{width:16px;height:16px;margin:2px 5px 2px 5px;;padding:0;vertical-align:middle}
+.i_text{position:relative;margin:2px;padding:3px 4px;border:1px solid #b7b7b7;border-right-color:#e1e1e1;border-bottom-color:#e1e1e1;background:transparent}
+label{margin:0 10px 0 0;cursor:pointer}
+
+
+.txtGray{color:gray;}
+
+h1{font-size:18px; font-weight:bold; margin-bottom:10px; margin-top:10px;}
+h2{font-size:16px; font-weight:bold}
+h3{font-size:14px; font-weight:bold}
+h4{font-size:12px; font-weight:bold}
+
+.textarea{border:1px #ddd solid; padding:10px; background-color:#fdfdfd; overflow:auto}
+.textarea:focus{border:1px #c40516 solid; padding:10px; background-color:#fff;}
+
+.tbl_wrt_text{border:1px #ddd solid; width:200px; height:15px; padding:2px; background-color:#fdfdfd}
+.tbl_wrt_text:focus{border:1px #f5993b solid; background-color:#fff}
+
+.tbl_wrt_text{border:1px #ddd solid; width:200px; height:15px; padding:2px; background-color:#fdfdfd}
+.tbl_wrt_text:focus{border:1px #c40516 solid; background-color:#fff}
+
+.pointer{cursor:pointer}
+
+.white{color:#fff}
+
+.bold{font-weight:bold}
+
+.11px{font-size:11px;}
+.12px{font-size:12px;}
+.14px{font-size:14px;}
+
+.w50{width:50px;}
+.w60{width:60px;}
+.w70{width:70px;}
+.w120{width:120px;}
+.w100{width:100px;}
+.w150{width:150px;}
+
+
+.margin-top10{margin-top:10px;}
+.margin-left10{margin-left:10px;}
+.margin-right10{margin-right:10px;}
+.margin-bottom10{margin-bottom:10px;}
+
+.center{margin:0 auto; text-align:center}
+
+.float-left{float:left}
+.float-right{float:right}
+.clear{clear:both}
+
+.btn_center{width:100%; text-align:center; height:50px; margin-top:20px;}
+.btn_right{float:right;width:300px; text-align:right; height:50px; margin-top:20px; margin-right:20px}
+
+.ev_tabs{ margin-bottom:10px;
+	
+}
+.ev_tabs ul li{
+	margin: 0 0 0 5px;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+	*zoom:1;
+	*display:inline;
+	border: 1px solid #ccc;
+}
+.ev_tabs ul li.on{
+	background-color: #f3f3f3;
+	font-weight: bold;
+}
+.ui-datepicker-week-sunday a.ui-state-default{color:#FF0000 !important}
+.ui-datepicker-week-end a.ui-state-default{color:#0000FF !important}
